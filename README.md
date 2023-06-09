@@ -1,16 +1,24 @@
-# mini
-
+# Guidance System For Visually Impaired using Flutter
 A new Flutter project.
 
 ## Getting Started
+This is a flutter based mobile android app containing
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  1.TensorFlow ssd model based real time object detection with text to voice output
+  
+  
+  
+  2.Google maps navigation in app using api key and voice input of destination and starting point is already made as users live location
+  
+  
+  
+  
+  3.flutter direct calling function to call ambulance
+  
+  
+  4.Emergency contacts
+  
+  
+  
+  5.Voice output for all the buttons and voice based guidance about the apps working
