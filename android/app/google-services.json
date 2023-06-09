@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "767386736203",
+    "project_id": "mini-26d15",
+    "storage_bucket": "mini-26d15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767386736203:android:ded28b42a86c82f25b5fce",
+        "android_client_info": {
+          "package_name": "com.example.mini"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767386736203-oe3f8v4mouuadj4abp3lfjpmqfomjqg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDxQJpp6PHA0lQ4zvnurrYlpChqgE7r6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767386736203-oe3f8v4mouuadj4abp3lfjpmqfomjqg9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "767386736203-g9ua3f06ilbmkafka9unorbmn6roqehu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mini"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
