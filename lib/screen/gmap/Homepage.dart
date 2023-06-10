@@ -67,20 +67,26 @@ class _HomePageState extends State<HomePage> {
     await _flutterTts.speak(text);
   }
 
-  @override
-  void initState() {
-    super.initState();
-    _startingPosition = LatLng(20.42796133580664, 75.885749655962);
-    _markers.add(
-      Marker(
-        markerId: MarkerId('1'),
-        position: _startingPosition,
-        infoWindow: InfoWindow(
-          title: 'My Position',
+void initState() {
+  super.initState();
+  getUserCurrentLocation().then((Position position) {
+    setState(() {
+      _startingPosition = LatLng(position.latitude, position.longitude);
+      _markers.add(
+        Marker(
+          markerId: MarkerId('1'),
+          position: _startingPosition,
+          infoWindow: InfoWindow(
+            title: 'My Position',
+          ),
         ),
-      ),
-    );
-  }
+      );
+    });
+  }).catchError((e) {
+    print('Error: $e');
+    // Handle error retrieving location
+  });
+}
 
   @override
   Widget build(BuildContext context) {
