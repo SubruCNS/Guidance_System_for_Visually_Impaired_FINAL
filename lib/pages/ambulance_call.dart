@@ -23,7 +23,7 @@ class Ambulance extends StatelessWidget {
                 ),
               ),
               onPressed: () {
-                FlutterPhoneDirectCaller.callNumber('+91 8078865442');
+                FlutterPhoneDirectCaller.callNumber('108');
               },
               child: Text(
                 'Call',
