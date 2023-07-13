@@ -23,7 +23,7 @@ class Contact2 extends StatelessWidget {
                 ),
               ),
               onPressed: () {
-                FlutterPhoneDirectCaller.callNumber('+91 8590563160');
+                FlutterPhoneDirectCaller.callNumber('your number');
               },
               child: Text(
                 'Call',
